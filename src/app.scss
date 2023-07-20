@@ -1,0 +1,57 @@
+.princpalPage{
+
+    background-color: #12313F;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+
+    .cards-princpal-page{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 80%;
+        gap: 1.5em;
+        overflow-y: scroll;
+    }
+
+    .title-card > h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 14px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background-color: rgba(96, 96, 96, 1);
+        border-radius: 5em;
+        
+    }
+    ::-webkit-scrollbar {
+        
+        border-radius: 5em;
+        width: 6px;
+        background: rgba(74, 74, 65, 1);
+        
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(203, 203, 203, 1);
+        border-radius: 5em;
+        padding-left: 5em;
+    }
+    .msg-sell{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .msg-sell > h2{
+        color: #F8FC38;
+        font-family: Lexend;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    
+}

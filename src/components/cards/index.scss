@@ -1,0 +1,46 @@
+.principal-cardofproduct{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: #CACACA;
+    color: #000;
+    width: 20em;
+    height: 10em;
+    align-items: center;
+    justify-content: space-around;
+
+    -webkit-box-shadow: 23px 17px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 23px 17px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 23px 17px 16px 0px rgba(0,0,0,0.75);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+
+    .principal-cardofproduct:hover{
+        cursor: pointer;
+    }
+    .cover-books > img{
+        width: 90px;
+        height: 110px;
+        border-radius: 15px;
+    }
+
+    .title-description-card{
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        gap: .5em;
+        height: 100%;
+        width: 60%;
+    }
+
+    .title-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .description-card{
+        font-size: 13px;
+        text-align: left;
+    }
+}
